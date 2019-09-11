@@ -8,9 +8,9 @@ The commands below are used to submit changes from your local repository to the
 origin. Add in the arguments for the commands and use them to push changes.
 
 ```
-git add ?
-git commit ?
-git push ?
+git add <file-name>
+git commit -m "Message for the commit"
+git push <upstream> <branch> //git push origin master
 ```
 
 ## Step 2
